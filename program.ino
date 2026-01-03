@@ -3,24 +3,25 @@
 #include <ESP32Servo.h>
 
 // PIN DEFINITIONS
-#define SDA_PIN 21
+#define SDA_PIN 21  // pins for the pn532
 #define SCL_PIN 22
 
 #define PHOTO_PIN 15      // photoresistor analog input
-#define SERVO_PIN 18      // change if needed
+#define SERVO_PIN 18      // servo control input
 
 // CONSTANTS
 const int POLL_EVERY = 2500;  // how often to poll the pn532
+// lower = less energy but longer response time
 
 Adafruit_PN532 nfc(SDA_PIN, SCL_PIN);
 
 Servo lockServo;
-const int SERVO_LOCKED = 20;     // adjust for your mechanism
-const int SERVO_UNLOCKED = 90;
+const int SERVO_LOCKED = 20;     // adjust
+const int SERVO_UNLOCKED = 90;  // adjust
 
 const unsigned long DRAWER_CLOSE_TIME = 10000; // 10 seconds of dark before it closes
 
-const int LIGHT_THRESHOLD = 1800;
+const int LIGHT_THRESHOLD = 1800;  // adjust too
 // Above this = drawer open
 // Below this = drawer closed
 
