@@ -16,7 +16,7 @@ I wanted a secure way to lock my desk because I keep important items inside and 
 - 1x of [PN532 NFC Module](https://www.aliexpress.us/item/3256806852006648.html), TYPE PN532, PRICE $3.67
 
 
-### NFC Card - 25.33
+### NFC Card - 25.33 for 5
 | Schematic | PCB | 3D View |
 |-----------|-----|---------|
 | ![Schematic](NFC%20Card/images/schematic.png) | ![PCB](NFC%20Card/images/pcb.png) | ![3D](NFC%20Card/images/3d.png) |
