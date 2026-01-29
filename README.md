@@ -2,7 +2,7 @@
 
 A cheap desk lock that unlocks with an NFC card.
 
-<img src="cad.jpg" alt="Desk Lock" width="400"/>
+<img src="cad.png" alt="Desk Lock" width="400"/>
 <img src="wiringdiagram.png" alt="Wiring Diagram" width="400"/>
 
 ## Overview
