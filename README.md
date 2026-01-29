@@ -9,7 +9,7 @@ A cheap desk lock that unlocks with an NFC card.
 
 This project is a DIY desk lock which keeps items in your desk secure by using a NFC reader. An ESP32 reads an NFC card via a PN532 module and controls a servo motor that locks or unlocks the desk. A photoresistor is used to detect when the drawer is closed so it can relock automatically.
 
-add link to detailed descrption
+[Detailed Description Here](#Detailed-Description)
 
 ## Motivation
 
