@@ -40,6 +40,5 @@ A photoresistor inside the drawer is wired as a voltage divider with a 10 kΩ re
 Here is an example placement diagram for the servo:
 <img width="1000" height="331" alt="image" src="https://github.com/user-attachments/assets/7fff74be-0c06-47ab-afa6-2cd48b0e31a5" />
 
-
-
-#
+## Notes
+The servo holder was not made by me, but suits the purpose perfectly.
