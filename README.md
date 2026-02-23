@@ -44,6 +44,7 @@ There is a case for every single part in this project:
 - PHotoresistor Case: for the photoresistor + resistor setup to detect desk drawer close
 - MG996R Case: Servo case for a wider base which improves adhesion + screw holes if you need it
 - PN532 Case (Case + Lid): Case + lid for the nfc reader module
+- And also, a full assembly with all electronics included!
 
 ## Example Placement Diagram
 
