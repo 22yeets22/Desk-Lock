@@ -36,9 +36,20 @@ This project is a DIY NFC-based desk lock using an ESP32. A PN532 NFC reader com
 The servo is powered by an external supply that also powers the ESP32 and is mounted so one position locks the drawer and another unlocks it. The mechanical design is flexible and can support different desk types.<br>
 A photoresistor inside the drawer is wired as a voltage divider with a 10 kΩ resistor and connected to an ESP32 ADC pin. It detects whether the drawer is open or closed based on light level. After unlocking, the system waits until the drawer is closed (becomes dark), then automatically relocks after a configurable delay (default 10 seconds).
 
+## CAD
+
+There is a case for every single part in this project:
+
+- ESP32 Case: for the esp32 (duh)
+- PHotoresistor Case: for the photoresistor + resistor setup to detect desk drawer close
+- MG996R Case: Servo case for a wider base which improves adhesion + screw holes if you need it
+- PN532 Case (Case + Lid): Case + lid for the nfc reader module
+
 ## Example Placement Diagram
+
 Here is an example placement diagram for the servo:
 <img width="1000" height="331" alt="image" src="https://github.com/user-attachments/assets/7fff74be-0c06-47ab-afa6-2cd48b0e31a5" />
 
 ## Notes
+
 The servo holder was not made by me, but suits the purpose perfectly.
